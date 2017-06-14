@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="pt-br">
+<html lang>
 
 <head>
 <title>Hello...</title>
@@ -8,10 +8,10 @@
 
 <body>
 	
-	<div id="mainContent">
-		<p id="helloText">?</p>
-		<button id="clickButton">click me</button>
-	</div>
+	
+	<?php 
+		echo "Testando a build do travis"	
+	?>
 
 </body>
 </html>
